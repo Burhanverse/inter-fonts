@@ -34,5 +34,5 @@ fi
 %license %{_licensedir}/%{name}/LICENSE.txt
 
 %changelog
-* Mon May 19 2024 Your Name <contact@burhanverse.eu.org> - 4.1-1
+* Mon May 19 2025 Burhanverse <contact@burhanverse.eu.org> - 4.1-1
 - Initial RPM release of Inter font family
