@@ -4,7 +4,7 @@ Release:        1%{?dist}
 Summary:        Inter font family
 License:        SIL OFL 1.1
 URL:            https://rsms.me/inter/
-Source0:        fonts
+Source0:        fonts.tar.gz
 BuildArch:      noarch
 Requires:       fontconfig
 
@@ -14,7 +14,7 @@ to aid in readability, and it is optimized for legibility on screens.
 
 %prep
 %setup -q -c -T
-cp -r %{SOURCE0} .
+tar -xzf %{SOURCE0}
 
 %install
 mkdir -p %{buildroot}%{_datadir}/fonts/inter
@@ -34,5 +34,5 @@ fi
 %license %{_licensedir}/%{name}/LICENSE.txt
 
 %changelog
-* Mon May 19 2025 Your Name <contact@burhanverse.eu.org> - 4.1-1
+* Mon May 19 2024 Your Name <contact@burhanverse.eu.org> - 4.1-1
 - Initial RPM release of Inter font family
