@@ -2,10 +2,6 @@
 
 This repository provides RPM packaging for the [Inter](https://rsms.me/inter/) font family, making it easy to install and update the Inter fonts on RPM-based Linux distributions (Fedora, CentOS, RHEL, openSUSE, etc).
 
-## About Inter
-
-Inter is a typeface carefully crafted & designed for computer screens. It features a tall x-height to aid in readability and is optimized for legibility on screens.
-
 ## Installation
 
 ### Using Copr (Recommended)
